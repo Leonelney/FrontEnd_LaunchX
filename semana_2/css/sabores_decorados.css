@@ -1,0 +1,45 @@
+h1 {
+    padding-left: 40px;
+    font-size: 40px;
+}
+
+.cuerpo ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    list-style-type: none;
+}
+
+.cuerpo ul li {
+    text-decoration: none;
+    display: block;
+    margin-right: 50px;
+    margin-bottom: 100px;
+    padding: 10px 10px 10px 10px;
+    color: black;
+}
+
+.cuerpo ul li:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cuerpo ul li img {
+    height: 200px;
+    width: 300px;
+}
+
+.cuerpo li p:first-of-type {
+    font-size: 25px;
+}
+
+.bottom_formulario {
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom_formulario a:first-of-type img {
+    height: 80px;
+    width: 80px;
+}

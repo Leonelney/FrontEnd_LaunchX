@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasteles Estelares</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/formulario.css">
+</head>
+
+<body>
+    <header>
+        <div class="superior">
+            <div class="logotipo">
+                <img src="./assets/img/logo2.png" alt="logotipo">
+            </div>
+            <div class="navegation">
+                <ul>
+                    <li>
+                        <a href="./index.html">Pasteles</a>
+                    </li>
+                    <li>
+                        <a href="./decorados.html">Decorados</a>
+                    </li>
+                    <li>
+                        <a href="./ordenar.html">Ordenar</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="address">
+                <p>ENVÍO A DOMICILIO SIN COSTO</p>
+            </div>
+        </div>
+        <div class="eslogan">
+            <p>
+                "LOS MEJORES PASTELES AL REDEDOR DE LA GALAXIA"
+            </p>
+        </div>
+    </header>
+
+    
+    <section class="cuerpo">
+        <div class="left">
+            <h1>Formulario del pedido</h1>
+            <form action="#">
+                <label for="nombre">Nombre: </label>
+                <input type="text" name="nombre" id="nombre"><br>
+                <label for="telefono">Teléfono: </label>
+                <input type="tel" name="telefono" id="telefono" maxlength="10"><br>
+                <label for="correo">Correo electrónico: </label>
+                <input type="email" name="correo" id="correo"><br>
+                <label for="descripcion">Decripción General del Pastel:</label><br>
+                <textarea name="general_pastel" id="general_pastel" cols="60" rows="10"></textarea><br>
+                <label for="sabores">Escoge los sabores de tu pastel:</label><br>
+                <input type="checkbox" id="topping1" name="topping1" value="Moka">
+                <label for="topping1">Moka</label><br>
+                <input type="checkbox" id="topping2" name="topping2" value="Cajeta">
+                <label for="topping2">Cajeta</label><br>
+                <input type="checkbox" id="topping3" name="topping3" value="Fresa">
+                <label for="topping3">Fresa</label><br>
+                <input type="checkbox" id="topping4" name="topping4" value="Durazno">
+                <label for="topping3">Durazno</label><br>
+                <input type="checkbox" id="topping5" name="topping5" value="Chocolate">
+                <label for="topping3">Chocolate</label><br>
+                <input type="checkbox" id="topping6" name="topping6" value="Trufa">
+                <label for="topping3">Trufa</label><br>
+                <input type="checkbox" id="topping7" name="topping7" value="Rompope">
+                <label for="topping3">Rompope</label><br>
+                <input type="checkbox" id="topping8" name="topping8" value="Marmoleado">
+                <label for="topping3">Marmoleado</label><br>
+                <input type="checkbox" id="topping9" name="topping9" value="Queso_zarzamora">
+                <label for="topping3">Queso con zarzamora</label><br>
+                <label for="decorados">Escoge los decorados de tu pastel:</label><br>
+                <input type="checkbox" id="topping10" name="topping10" value="chispas_chocolate">
+                <label for="topping1">Chispas de chocolate</label><br>
+                <input type="checkbox" id="topping11" name="topping11" value="chispas_colores">
+                <label for="topping2">Chispas de colores</label><br>
+                <input type="checkbox" id="topping12" name="topping12" value="dulces">
+                <label for="topping3">Dulces</label><br>
+                <input type="checkbox" id="topping13" name="topping13" value="coco">
+                <label for="topping3">Coco rallado</label><br>
+                <input type="checkbox" id="topping14" name="topping14" value="nuez">
+                <label for="topping3">Nuez</label><br>
+                <input type="checkbox" id="topping15" name="topping15" value="fruta">
+                <label for="topping3">Fruta</label><br>
+                <input type="reset">
+                <input type="submit" id="boton1" name="boton1" value="Enviar" onclick="alert('El pedido se ha realizado');">
+            </form>
+        </div>
+
+        <div class="rigth">
+            <img src="./assets/img/pastel_form.jpg" alt="pastel">
+        </div>
+    </section>
+    
+    <footer>
+        <div class="address_footer">
+            <p>Dirección:<br>Madero 31</p>
+            <p>Telefono:<br>55 5343 5465</p>
+            <p>Atención al cliente de 9 am a 9 pm</p>
+        </div>
+        <div class="derechos">
+            <p>© 2022 Pastelería Espacial</p>
+            <p>Desarrollado por Leonel Olivares Conchillos</p>
+        </div>     
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,79 @@
+* {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+body {
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+.superior {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logotipo img {
+    height: 220px;
+    width: 220px;
+}
+
+.navegation ul {
+    list-style-type: none;
+}
+
+.navegation ul li {
+    float: left;
+}
+
+.navegation ul li a {
+    display: block;
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(150, 150, 150);
+    border-left: 0.125rem solid coral;
+    padding: 25px;
+}
+
+.navegation ul li a:hover {
+    color: black;
+}
+
+.navegation ul li:last-child a {
+    border-right: 0.125rem solid coral;
+}
+
+.address {
+    background-color: #474a8c;
+    color: beige;
+    font-size: 23px;
+    height: 240px;
+    width: 300px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+header .address p {
+    padding: 0px 20px 0px 20px;
+}
+
+.eslogan {
+    background-color: coral;
+    text-align: center;
+    color: beige;
+    font-size: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: coral;
+    color: beige;
+}

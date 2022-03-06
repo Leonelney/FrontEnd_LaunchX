@@ -1,0 +1,36 @@
+h1 {
+    font-size: 30px;
+}
+
+.cuerpo {
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.cantidades {
+    display: flex;
+    justify-content: space-around;
+}
+
+.informes {
+    text-align: center;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+}
+
+.informes th {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.informes th{
+    border-style: none none solid none;
+    border-width: 5px;
+}
+
+.informes td{
+    border-style: none none solid none;
+    border-width: 5px;
+}
