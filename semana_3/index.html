@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vacunación</title>
+    <link rel="stylesheet" href="styles.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="" class="logo">Vacunación</a>
+            <nav class="navigation">
+                <ul>
+                    <li><a href="#" class="bottom">Base de Datos</a></li>
+                    <li><a href="#" class="bottom">Educación</a></li>
+                    <li><a href="#" class="bottom">Noticias</a></li>
+                    <li><a href="#" class="bottom">Regulación</a></li>
+                    <li><a href="#" class="bottom">Evita Engaños</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="intro">
+            <article class="presentation">
+                <h1>Combate Al  Virus Con Vacunas</h1>
+                <div class="content">
+                    <p class="sub-1">
+                        Paremos esta pandemia matando el virus con una vacuna, no te dejes contagiar tu y tu familia
+                    </p>
+                    <div class="characteristics">
+                        <div>
+                            <div class="icon-yellow">
+                                <img src="./img/escudo-paloma.png" alt="escudo con paloma">
+                            </div>
+                            <p>Mejor Protección</p>
+                        </div>
+                        <div>
+                            <div class="icon-yellow">
+                                <img src="./img/estrella.png" alt="estrella">
+                            </div>
+                            <p>Vacunas Seleccionadas</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="schedule">
+                    <div class="icon-blue">
+                        <img src="./img/reloj.png" alt="reloj">
+                    </div>
+                    <p>Vacunas Seleccionadas</p>
+                </div>
+                <div class="form">
+                    <div class="question">
+                        <div class="title-inputs">
+                            <div class="icon-blue">
+                                <img src="./img/reloj.png" alt="reloj">
+                            </div>
+                            <p>Ubicación</p>
+                        </div>
+                        <input type="text" id="location" name="location" value="Jakarta Utara">
+                    </div>
+                    <div class="question">
+                        <div class="title-inputs">
+                            <div class="icon-blue">
+                                <img src="./img/reloj.png" alt="reloj">
+                            </div>
+                            <p>Fecha</p>
+                        </div>
+                        <input type="date" id="date" name="date" value="2021-07-08">
+                    </div>
+                    <div class="question">
+                        <div class="title-inputs">
+                            <div class="icon-blue">
+                                <img src="./img/reloj.png" alt="reloj">
+                            </div>
+                            <p>Tipo de vacuna</p>
+                        </div>
+                        <select name="type" id="type">
+                            <option value="astrazeneca">AztraZeneca</option>
+                            <option value="sinovac">SinoVac</option>
+                            <option value="pfizer">Pfizer</option>
+                            <option value="moderna" selected="selected">Moderna</option>
+                        </select>
+                    </div>
+                    <div class="submit">
+                        <a href="#" class="bottom">Enviar</a>
+                    </div>
+                </div>
+            </article>
+            <article class="banner1">
+                <img src="./img/banner1.png" alt="banner1">
+            </article>
+        </section>
+
+        <section class="logotipos">
+            <img src="./img/aztrazeneca.png" alt="astrazeneca">
+            <img src="./img/sinovac.png" alt="sinovac">
+            <img src="./img/Pfizer.png" alt="pfizer">
+            <img src="./img/moderna.png" alt="moderna">
+        </section>
+
+        <section class="why">
+            <article class="should">
+                <h2>Porqué debería vacunarme?</h2>
+                <p>Para evitar cualquier duda sobre la vacunación contra el COVID-19, identifique los siguientes 4 beneficios de la vacunación contra el COVID-19:</p>
+            </article>
+            <article class="boxes">
+                <div class="box">
+                    <img src="./img/reloj.png" alt="" class="icon-blue">
+                    <h4>Minimizar la propagación de virus</h4>
+                    <p>La vacuna ha demostrado su eficacia para evitar que alguien se infecte con el coronavirus</p>
+                </div>
+                <div class="box">
+                    <img src="./img/reloj.png" alt="" class="icon-blue">
+                    <h4>Formación de anticuerpos</h4>
+                    <p>Vacuna COVID-19 probada para ayudar a dar forma a la respuesta de anticuerpos para el sistema inmunológico</p>
+                </div>
+                <div class="box">
+                    <img src="./img/reloj.png" alt="" class="icon-blue">
+                    <h4>Protegiendo a las personas cercanas</h4>
+                    <p>Los beneficios de la vacunación contra el COVID-19 son que la vacuna que recibimos también puede ayudar a proteger a las personas que nos rodean</p>
+                </div>
+                <div class="box">
+                    <img src="./img/reloj.png" alt="" class="icon-blue">
+                    <h4>Crear inmunidad de grupo</h4>
+                    <p>La vacunación contra el COVID-19 también es beneficiosa para crear inmunidad grupal o de rebaño</p>
+                </div>
+            </article>
+        </section>
+
+        <section class="before">
+            <article class="banner2">
+                <img src="./img/banner2.png" alt="banner2">
+            </article>
+            <article class="preparations">
+                <h2>Preparaciones Antes de la Vacuna</h2>
+                <p id="pre-p">El éxito de las vacunas está fuertemente influenciado por la fortaleza del sistema inmunológico del cuerpo. Por lo tanto, hay varias cosas que se pueden intentar para que la vacuna contra el COVID-19 funcione:</p>
+                <div class="hidden">
+                    <label for="oculto1" class="title-hidden">
+                        <div class="title-hidden">
+                            <img src="./img/reloj.png" alt="" class="icon-blue">
+                            <h4>Evite las bebidas alcohólicas</h4>
+                        </div>
+                    </label>
+                    <input type="radio" id="oculto1" name="oculto" class="oculto">
+                    <div class="text-hidden">
+                        <p>El estrés tiene un efecto profundo en el trabajo inmunológico. Además, el estrés prolongado puede aumentar la producción de cortisol y el estrés oxidativo en el cuerpo.</p>
+                    </div>
+                </div>
+                <div class="hidden">
+                    <label for="oculto2" class="title-hidden">
+                    <div class="title-hidden">
+                            <img src="./img/reloj.png" alt="" class="icon-blue">
+                            <h4>Evitar el estrés</h4>
+                        </div>
+                    </label>
+                    <input type="radio" id="oculto2" name="oculto" class="oculto" checked>
+                    <div class="text-hidden">
+                        <p>El estrés tiene un efecto profundo en el trabajo inmunológico. Además, el estrés prolongado puede aumentar la producción de cortisol y el estrés oxidativo en el cuerpo.</p>
+                    </div>
+                </div>
+                <div class="hidden">
+                    <label for="oculto3" class="title-hidden">
+                        <div class="title-hidden">
+                            <img src="./img/reloj.png" alt="" class="icon-blue">
+                            <h4>Come comida saludable</h4>
+                        </div>
+                    </label>
+                    <input type="radio" id="oculto3" name="oculto" class="oculto">
+                    <div class="text-hidden">
+                        <p>El estrés tiene un efecto profundo en el trabajo inmunológico. Además, el estrés prolongado puede aumentar la producción de cortisol y el estrés oxidativo en el cuerpo.</p>
+                    </div>
+                </div>
+                <div class="hidden">
+                    <label for="oculto4" class="title-hidden">
+                        <div class="title-hidden">
+                            <img src="./img/reloj.png" alt="" class="icon-blue">
+                            <h4>Dormir lo suficiente</h4>    
+                        </div>
+                    </label>
+                    <input type="radio" id="oculto4" name="oculto" class="oculto">
+                    <div class="text-hidden">
+                        <p>El estrés tiene un efecto profundo en el trabajo inmunológico. Además, el estrés prolongado puede aumentar la producción de cortisol y el estrés oxidativo en el cuerpo.</p>
+                    </div>
+                </div>
+                <div class="hidden">
+                    <label for="oculto5" class="title-hidden">
+                        <div class="title-hidden">
+                            <img src="./img/reloj.png" alt="" class="icon-blue">
+                            <h4>Ejercicio o actividad física</h4>
+                        </div>
+                    </label>
+                    <input type="radio" id="oculto5" name="oculto" class="oculto">
+                    <div class="text-hidden">
+                        <p>El estrés tiene un efecto profundo en el trabajo inmunológico. Además, el estrés prolongado puede aumentar la producción de cortisol y el estrés oxidativo en el cuerpo.</p>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <section class="emergency">
+            <article class="contact">
+                <h2>Contacto de Emergencia</h2>
+                <p>Comuníquese con uno de los contactos a continuación si usted o su familia se sienten mal y tienen síntomas similares, como los de Covid-19, asegúrese de cuidarse también antes de informarnos:</p>
+                
+                <div class="section_act">
+                    <div class="actions">
+                        <div class="superior_action">
+                            <img src="./img/reloj.png" alt="" class="icon-blue">
+                            <div class="act">
+                                <h5>Call</h5>
+                                <p>021.123.145.14</p>
+                            </div>
+                        </div>
+                        <a href="#" class="bottom">Call Now</a>
+                    </div>
+                    <div class="actions">
+                        <div class="superior_action">
+                            <img src="./img/reloj.png" alt="" class="icon-blue">
+                            <div class="act">
+                                <h5>Chat</h5>
+                                <p>021.123.145.14</p>
+                            </div>
+                        </div>
+                        <a href="#" class="bottom">Chat Now</a>
+                    </div>
+                    <div class="actions">
+                        <div class="superior_action">
+                            <img src="./img/reloj.png" alt="" class="icon-blue">
+                            <div class="act">
+                                <h5>Video Call</h5>
+                                <p>021.123.145.14</p>
+                            </div>
+                        </div>
+                        <a href="#" class="bottom">Video Call Now</a>
+                    </div>
+                    <div class="actions">
+                        <div class="superior_action">
+                            <img src="./img/reloj.png" alt="" class="icon-blue">
+                            <div class="act">
+                                <h5>Message</h5>
+                                <p>021.123.145.14</p>
+                            </div>
+                        </div>
+                        <a href="#" class="bottom">Message Now</a>
+                    </div>
+                </div>
+            </article>
+            <article class="banner3">
+                <img src="./img/banner3.png" alt="banner3">
+            </article>
+        </section>
+        
+        <footer>
+            <div class="footer_sup">
+                <div class="footer_left">
+                    <h3>Vacunación</h3>
+                    <p>Nuestro objetivo es ayudar al mundo a liberarse de la pandemia en curso.</p>
+                </div>
+                <div class="footer_right">
+                    <ul>
+                        <li>Sobre</li>
+                        <li><a href="#">Sobre nosotros</a></li>
+                        <li><a href="#">Características</a></li>
+                        <li><a href="#">Noticias & Blog</a></li>
+                    </ul>
+                    <ul>
+                        <li>Compañía</li>
+                        <li><a href="#">¿Cómo trabajamos?</a></li>
+                        <li><a href="#">Capital</a></li>
+                        <li><a href="#">Seguridad</a></li>
+                    </ul>
+                    <ul>
+                        <li>Soporte</li>
+                        <li><a href="#">Preguntas frecuentes</a></li>
+                        <li><a href="#">Centro de soporte</a></li>
+                        <li><a href="#">Contacta con nosotros</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer_inf">
+                <div class="footer_left">
+                    <p>@2021 Vacunación. Todos los derechos reservados</p>
+                </div>
+                <div class="footer_right">
+                    <a href="">Términos y condiciones</a>
+                    <a href="">Políticas de Privacidad</a>
+                </div>
+            </div>
+        </footer>
+    </main>
+</body>
+</html>

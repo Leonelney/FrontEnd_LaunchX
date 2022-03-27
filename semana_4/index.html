@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex LaunchX</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="pokedex">
+        <img src="./img/pokedex.png" alt="pokedex" id="bg">
+        <div class="display_left">
+            <img src="" alt="pokemon_imagen" id="pokeImg">
+        </div>
+        
+        <div class="display_name">
+            <p id="pokeName">
+            </p>
+        </div>
+
+        <div class="display_right">
+            <h3>Tipo: </h3>
+            <div id="type">
+            </div>
+    
+            <h3>Estadísticas: </h3>
+            <div class="stadistics">
+                <div class="left_stats">
+                    <h4>HP: </h4>
+                    <p id="hp"></p>
+    
+                    <h4>Ataque: </h4>
+                    <p id="attack"></p>
+    
+                    <h4>Defensa: </h4>
+                    <p id="defense"></p>
+                </div>
+
+                <div class="right_stats">
+                    <h4>Ataque Especial: </h4>
+                    <p id="special-attack"></p>
+    
+                    <h4>Defensa Especial: </h4>
+                    <p id="special-defense"></p>
+    
+                    <h4>Velocidad: </h4>
+                    <p id="speed"></p>
+                </div>
+            </div>
+    
+            <h3>Habilidades: </h3>
+            <div id="abilities">
+            </div>
+    
+            <h3>Datos Físicos: </h3>
+            <div class="extra">
+                <div class="left_extra">
+                    <h4>Altura: </h4>
+                    <p id="height"></p>
+                </div>
+
+                <div class="right_extra">
+                    <h4>Peso: </h4>
+                    <p id="weight"></p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="display_form">
+            <div class="input">
+                <input type="text" id="pokeInput" placeholder="bulbasaur">
+                <button id="submit" onclick="consultar()">Submit</button>
+            </div>
+            <div class="arrows">
+                <img src="./img/flecha.png" alt="right_arrow" onclick="cambiarId(-1)" id="right_arrow">
+                <img src="./img/flecha.png" alt="left_arrow" onclick="cambiarId(1)" id="left_arrow">
+            </div>
+        </div>
+    </div>
+    
+    
+    <footer>
+        <script src="./scripts.js"></script>      
+    </footer>
+</body>
+</html>
